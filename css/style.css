@@ -99,14 +99,14 @@ body:after {
 }
 
 .btn.btn-primary {
-  background: #fd7e14;
-  border-color: #fd7e14;
+  background: #4a8ee1;
+  border-color: #4a8ee1;
   color: #fff;
 }
 
 .btn.btn-primary:hover {
-  background: #fd7e14;
-  border-color: #fd7e14;
+  background: #4a8ee1;
+  border-color: #4a8ee1;
   color: #fff;
 }
 
@@ -131,7 +131,7 @@ body:after {
 
 .form-control:active,
 .form-control:focus {
-  border-color: #fd7e14;
+  border-color: #4a8ee1;
 }
 
 .form-control:hover,
@@ -363,7 +363,7 @@ body:after {
 }
 
 .ul-check.primary li:before {
-  color: #fd7e14;
+  color: #4a8ee1;
 }
 
 .ul-check li.remove {
@@ -423,7 +423,7 @@ body:after {
 }
 
 .site-navbar .site-navigation .site-menu .active {
-  color: #fd7e14;
+  color: #4a8ee1;
   display: inline-block;
   padding: 20px 20px;
 }
@@ -445,7 +445,7 @@ body:after {
 }
 
 .site-navbar .site-navigation .site-menu>li>a:hover {
-  color: #fd7e14;
+  color: #4a8ee1;
 }
 
 .site-navbar .site-navigation .site-menu>li.social>a {
@@ -468,7 +468,7 @@ body:after {
 }
 
 .site-navbar .site-navigation .site-menu>li.social>a:hover {
-  color: #fd7e14;
+  color: #4a8ee1;
 }
 
 .site-navbar .site-navigation .site-menu .has-children {
@@ -498,7 +498,7 @@ body:after {
   top: 100%;
   position: absolute;
   text-align: left;
-  border-top: 2px solid #fd7e14;
+  border-top: 2px solid #4a8ee1;
   -webkit-box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
   padding: 0px 0;
@@ -542,7 +542,7 @@ body:after {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active {
-  color: #fd7e14 !important;
+  color: #4a8ee1 !important;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li {
@@ -576,7 +576,7 @@ body:after {
 .site-navbar .site-navigation .site-menu .has-children:hover>a,
 .site-navbar .site-navigation .site-menu .has-children:focus>a,
 .site-navbar .site-navigation .site-menu .has-children:active>a {
-  color: #fd7e14;
+  color: #4a8ee1;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover,
@@ -687,7 +687,7 @@ body:after {
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #fd7e14;
+  color: #4a8ee1;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -696,7 +696,7 @@ body:after {
 }
 
 .site-mobile-menu .site-nav-wrap li .active {
-  color: #fd7e14;
+  color: #4a8ee1;
 }
 
 .site-mobile-menu .site-nav-wrap .social {
@@ -704,7 +704,7 @@ body:after {
 }
 
 .site-mobile-menu .site-nav-wrap .social:hover {
-  color: #fd7e14;
+  color: #4a8ee1;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -856,7 +856,7 @@ body:after {
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a.active {
-  color: #fd7e14 !important;
+  color: #4a8ee1 !important;
 }
 
 /* Blocks */
@@ -887,13 +887,13 @@ body:after {
 
 .section-sub-title {
   font-size: 13px;
-  color: #fd7e14;
+  color: #4a8ee1;
   letter-spacing: .2em;
   text-transform: uppercase;
 }
 
 .section-title {
-  color: #fd7e14;
+  color: #4a8ee1;
   font-size: 40px;
   font-weight: 900;
 }
@@ -1122,7 +1122,7 @@ body:after {
   line-height: 40px;
   text-align: center;
   border-radius: 50%;
-  background: #fd7e14;
+  background: #4a8ee1;
   margin-right: 20px;
   color: #fff;
 }
@@ -1145,7 +1145,7 @@ body:after {
   line-height: 70px;
   border-radius: 50%;
   text-align: center;
-  background: #fd7e14;
+  background: #4a8ee1;
   color: #fff;
   margin-bottom: 30px;
 }
@@ -1435,32 +1435,6 @@ button:hover {
   margin: 1em 0 0 0.75em;
 }
 
-/*/w3l-copy-right*/
-.w3l-copy-right.text-center {
-  margin-top: 2em;
-}
-
-.w3l-copy-right p {
-  font-size: 15px;
-  line-height: 29px;
-  color: #fff;
-}
-
-.w3l-copy-right p a {
-  color: #ff6150;
-}
-
-.w3l-copy-right p a:hover {
-  color: #fff;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-}
-
-/*//w3l-copy-right*/
 @media screen and (max-width:992px) {
   .timeline-content-6 .timeline {
     width: 100%;

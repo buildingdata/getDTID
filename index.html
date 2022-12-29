@@ -2,7 +2,7 @@
 <html lang="zh-cn">
 
 <head>
-  <title>建筑节能动态保温设计</title>
+  <title>动态保温设计</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -68,22 +68,10 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="index.html" class="nav-link">主页</a></li>
-                <li class="has-children">
-                  <a href="#features" class="nav-link">特性</a>
-                  <ul class="dropdown">
-                    <li><a href="#features-1" class="nav-link">建筑节能成为焦点</a></li>
-                    <li><a href="#features-2" class="nav-link">围护结构动态传热计算模型</a></li>
-                    <li><a href="#features-3" class="nav-link">围护结构动态保温设计软件</a></li>
-                  </ul>
-                </li>
-                <li><a href="update.html" class="nav-link">历史版本</a></li>
-
-                <li class="social"><a href="http://buildingdata.xauat.edu.cn/" target="_blank" class="nav-link"><span class="icon-link"></span></a></li>
+                <li class="social"><a href="https://github.com/buildingdata/getDTID" target="_blank" class="nav-link"><span class="icon-github"></span></a></li>
               </ul>
             </nav>
           </div>
-
 
           <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3 text-black"></span></a></div>
 
@@ -99,123 +87,30 @@
         <div class="row justify-content-center text-center">
           <div class="col-lg-10">
             <div class="mb-5">
-              <h1 class="hero-heading">建筑节能 <strong>动态保温设计</strong></h1>
+              <h1 class="hero-heading">建筑围护结构 <strong>动态保温设计</strong></h1>
               <p>Dynamic thermal insulation design of building envelopes.</p>
               <a href="https://github.com/buildingdata/getDTID/releases/download/v0.9.0/DTID_Setup_v0.9.0.zip" class="btn btn-primary icon-windows" style="margin: 10px 10px 10px 10px;"> 下载安装版 v0.9.0<br><span style="font-size: 8px; color: aliceblue;">大小：830MB</span></a>
               <a href="https://github.com/buildingdata/getDTID/releases/download/v0.9.0/DTID_Portable_v0.9.0.zip" class="btn btn-primary icon-windows" style="margin: 10px 10px 10px 10px;"> 下载便携版 v0.9.0<br><span style="font-size: 8px; color: aliceblue;">大小：748KB（需要Matlab环境）</span></a>
             </div>
+
             <img src="images/home.png" alt="image" class="img-fluid">
+
+            <hr>
+
+            <div class="row">
+              <div class="col-12 text-center mb-5">
+                <span class="subtitle-1">Introduction</span>
+                <h2 class="section-title-1 font-weight-bold">简介</h2>
+              </div>
+            </div>
+            
+            <p style="text-align: left;text-indent: 2em;">本软件以考虑太阳辐射热作用的动态室外计算参数作为室外边界条件，针对不同地区不同房间采暖运行方式，基于有限差分法建立了围护结构动态传热模型并提出动态保温设计计算方法，从而获得室内空气温度和各朝向围护结构内表面温度的逐时值，进而依据不同设计指标判定围护结构保温性能是否在各时刻满足防结露与基本热舒适要求，为不同地区围护结构实现精细化动态保温设计提供分析工具，提高建筑的气候适应性。</p>
+
           </div>
         </div>
       </div>
     </div>
 
-
-    <div class="site-section pt-0" id="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center mb-5">
-            <span class="subtitle-1">Features</span>
-            <h2 class="section-title-1 font-weight-bold">软件特性</h2>
-          </div>
-        </div>
-        <div class="row align-items-center mb-5" id="features-1">
-          <div class="col-lg-6 mb-5 order-lg-2 mb-lg-0" data-aos="fade-right">
-            <img src="images/features-1.jpg" alt="Image" class="img-fluid img-shadow">
-          </div>
-          <div class="col-lg-5 mr-auto">
-            <div class="mb-4">
-              <h2 class="section-title-2">建筑节能成为焦点</h2>
-              <p>随着我国经济的极速发展，建筑面积的增长和人们对建筑热舒适水平要求的提高，致使近年来我国居住建筑采暖能耗持续增长。因此，寻找经济、合理的措施进行建筑节能已成为国家关注的焦点。</p>
-            </div>
-
-            <div class="d-flex feature-v1">
-              <span class="wrap-icon icon-building-o"></span>
-              <div>
-                <h3>提高建筑围护结构的热工性能</h3>
-                <p>科学有效的提高建筑围护结构的热工性能是在保证居住建筑热环境质量的前提下，降低建筑采暖能耗途径中潜力最大、最直接的方式。对于冬季寒冷有采暖需求的地区，合理的围护结构保温设计即是提高围护结构热工性能，降低建筑能耗的有效措施。</p>
-              </div>
-            </div>
-
-            <div class="d-flex feature-v1">
-              <span class="wrap-icon icon-calculator"></span>
-              <div>
-                <h3>准确描述围护结构动态传热计算模型</h3>
-                <p>本软件提出了能够准确描述围护结构动态传热特性并有效利用太阳能资源的围护结构动态保温设计方法及室外计算参数，以提高保温设计精度。</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="row align-items-center mb-5" id="features-2">
-          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-left">
-            <img src="images/features-2.jpg" alt="Image" class="img-fluid img-shadow">
-          </div>
-          <div class="col-lg-5 order-lg-1 ml-auto">
-            <div class="mb-4">
-              <h2 class="section-title-2">围护结构动态传热计算模型</h2>
-              <p>考虑太阳辐射热作用的动态室外计算参数作为室外边界条件，针对不同地区不同房间采暖运行方式，基于有限差分法建立了围护结构动态传热模型并提出动态保温设计计算方法。</p>
-            </div>
-
-            <div class="d-flex feature-v1">
-              <span class="wrap-icon icon-cog"></span>
-              <div>
-                <h3>有限差分法</h3>
-                <p>针对不同地区不同房间采暖运行方式，基于有限差分法建立了围护结构动态传热模型并提出动态保温设计计算方法。</p>
-              </div>
-            </div>
-
-            <div class="d-flex feature-v1">
-              <span class="wrap-icon icon-bolt"></span>
-              <div>
-                <h3>边界条件</h3>
-                <p>本软件以考虑太阳辐射热作用的动态室外计算参数作为室外边界条件。</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="row align-items-center mb-5" id="features-3">
-          <div class="col-lg-6 mb-5 order-lg-2 mb-lg-0" data-aos="fade-right">
-            <img src="images/features-3.jpg" alt="Image" class="img-fluid img-shadow">
-          </div>
-          <div class="col-lg-5 mr-auto">
-            <div class="mb-4">
-              <h2 class="section-title-2">围护结构动态保温设计软件</h2>
-              <p>基于不同地区室外气候条件及围护结构的设计要求，在考虑室外干球温度与太阳辐射综合热作用的基础上，确定建筑围护结构动态保温设计室外计算参数。</p>
-            </div>
-
-            <div class="d-flex feature-v1">
-              <span class="wrap-icon icon-users"></span>
-              <div>
-                <h3>一维非稳态传热数值计算</h3>
-                <p>以此作为室外边界条件，结合设定的围护结构几何模型和室内边界条件，进行各朝向围护结构一维非稳态传热数值计算。</p>
-              </div>
-            </div>
-
-            <div class="d-flex feature-v1">
-              <span class="wrap-icon icon-layers"></span>
-              <div>
-                <h3>结果分析与设计要求</h3>
-                <p>进而分析围护结构保温性能是否满足设计要求，用于指导不同地区进行围护结构动态保温设计。</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="site-section text-center">
-      <div class="container">
-        <h2 class="text-black mb-3">我们软件的更新历史</h2>
-        <p class="mb-5">Software update history.</p>
-        <p><a href="update.html" class="btn btn-primary">历史更新</a></p>
-      </div>
-    </div>
 
     <footer class="site-footer bg-light">
       <div class="container">
@@ -224,19 +119,8 @@
             <div class="row">
               <div class="col-md-5">
                 <h2 class="footer-heading mb-4"><strong>关于我们</strong></h2>
-                <p>西安建筑科技大学</p>
-                <p>杨柳、张率、刘衍、侯立强、刘堂</p>
-              </div>
-              <div class="col-md-3 ml-auto">
-                <h2 class="footer-heading mb-4"><strong>菜单</strong></h2>
-                <ul class="list-unstyled">
-                  <li><a href="index.html" class="smoothscroll">主页</a></li>
-                  <li><a href="update.html" class="smoothscroll">历史更新</a></li>
-                </ul>
-              </div>
-              <div class="col-md-3 footer-social">
-                <h2 class="footer-heading mb-4"><strong>数据平台</strong></h2>
-                <a href="http://buildingdata.xauat.edu.cn/" target="_blank" class="pl-0 pr-3"><span class="icon-link"></span></a>
+                <p>杨柳、张率、刘衍、侯立强、刘堂</p><br>
+                <img src="images/xauat.png" alt="image" class="img-fluid">
               </div>
             </div>
           </div>
